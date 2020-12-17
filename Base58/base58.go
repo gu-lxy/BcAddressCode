@@ -18,7 +18,7 @@ func Decode(b string) []byte {
 }
 
 // Encode encodes a byte slice to a modified base58 string, using BTCAlphabet
-func Encode(b []byte) string {
+func Encode(b []byte, b2 ...byte) string {
 	return EncodeAlphabet(b, BTCAlphabet)
 }
 

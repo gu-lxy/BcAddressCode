@@ -1,5 +1,0 @@
-package Text
-
-func diZhi()  {
-
-}

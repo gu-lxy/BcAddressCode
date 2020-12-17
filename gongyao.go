@@ -1,4 +1,4 @@
-package Text
+package main
 
 import (
 	"crypto/elliptic"
