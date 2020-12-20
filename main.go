@@ -24,6 +24,7 @@ func main1() {
 		fmt.Println(err.Error())
 		return
 	}
+
 	//将x和y组成公钥，转换为[]byte类型
 	//公钥：x坐标+y坐标
 	//系统的api
